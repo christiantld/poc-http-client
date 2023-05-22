@@ -1,4 +1,4 @@
-import HttpClient, { FetchParams } from "./httpClient";
+import HttpClient, { FetchParams } from "./HttpClient";
 import ky, { KyResponse } from "ky";
 
 export default class KyAdapter implements HttpClient {

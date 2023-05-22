@@ -1,4 +1,4 @@
-import HttpClient, { FetchParams } from "./httpClient";
+import HttpClient, { FetchParams } from "./HttpClient";
 
 export default class FetchAdapter implements HttpClient {
 

@@ -1,4 +1,4 @@
-import HttpClient, { FetchParams } from "./httpClient";
+import HttpClient, { FetchParams } from "./HttpClient"
 import wretch, { WretchResponse } from "wretch";
 
 export default class WretchAdapter implements HttpClient {
